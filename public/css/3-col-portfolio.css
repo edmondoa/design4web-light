@@ -1,0 +1,46 @@
+/*!
+ * Start Bootstrap - 3 Col Portfolio (http://startbootstrap.com/template-overviews/3-col-portfolio)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-3-col-portfolio/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.pagination {
+    margin-bottom: 30px;
+}
+.btn-facebook {
+  background: #3B5998;
+  border-radius: 6px;
+  color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #263961; 
+}
+.btn-facebook:link, .btn-facebook:visited {
+  color: #fff;
+}
+.btn-facebook:active, .btn-facebook:hover {
+  background: #263961;
+  color: #fff;
+}
+.btn-grp-social{
+  position: absolute !important;
+  bottom: 0px !important;
+}
+.h-50 {
+    min-height: 50%!important;
+}
+.m-t-5{margin-top: 5%};
