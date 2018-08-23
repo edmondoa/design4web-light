@@ -96,7 +96,7 @@ Route::get('/logout/',function (Request $request) {
 Route::get('/register/', function () {
 	  if(!\Auth::check()){
          
-		  return view('form/register');
+		  return view('form.register');
 	  } else {
 	  return redirect ('/products');
 	  }
